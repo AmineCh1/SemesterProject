@@ -27,7 +27,7 @@ python projections.py reference.py distorted.py icoK 1 off
 ```
 ### Comments
 This program captures projected views of the model with respect to the specified parameters. 
-Additional note : When taking the projected views of certain models, it could happen that the model itself is not centered properly, so the focal point does not correspond to the "center" of the model so to speak. Hence, results may be variable depending on the model we capture. This could ve improved on. 
+
 
 ## Experiment
 ### Dependencies
