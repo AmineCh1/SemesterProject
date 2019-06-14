@@ -23,7 +23,7 @@ python projections.py -h
 ```
 Example:
 ```
-python projections.py reference.py distorted.py icoK 1 off 
+python projections.py reference.ply distorted.ply icoK 1 off 
 ```
 ### Comments
 This program captures projected views of the model with respect to the specified parameters. 
@@ -37,7 +37,7 @@ This program requires Python, PyQt5, and VTK.
 python SubjExpLauncher.py
 ```
 ### Comments 
-This program launches an experiment session. It reads batch files from the Batches folder, and stores the results in the Results folder per subject. It requires that the contents to be assessed are at the root of the SubjExp.py and SubjExpLauncher.py
+This program launches an experiment session. It reads batch files from the Batches folder, and stores the results in the Results folder per subject. It requires that the contents to be assessed are at the root of the SubjExp.py and SubjExpLauncher.py files. Also, changing the batch file currently read and the sticker order can be easily done by editing two lines of code that are mentioned inside the file SubjExp.py
 
 ## Statistical Analysis notebook
 For completeness, a jupyter notebook where the data processing was done from the results of the experiment is provided.(HTML and ipynb versions)
