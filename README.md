@@ -15,7 +15,7 @@ It is then possible to store the resulting contents in either ply or vtk in a fo
 
 ## Projections generator
 ### Dependencies
-This program requires VTK and Python.
+This program requires VTK and Python, and ffmpeg.
 ### Example Run
 For info, execute the following command:
 ```
